@@ -39,33 +39,48 @@ p {
     font-family: "Raleway", sans-serif;
     color: #40514e;
     line-height: 2;
+    font-size: 1.2rem;
 }
 
 a {
-    color: white;
+    color: #216e6e;
+    font-family: "Raleway", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
 }
 
-.CONTACT-BTN {
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    color: #ffffff;
-    font-family: Arial;
-    font-size: 1.25rem;
-    font-weight: 100;
-    padding: 20px;
-    background-color: #66bfbf;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
+a:hover {
+    color: #eaf6f6;
 }
 
 .elyza-avatar {
     border-radius: 10%;
 }
 
-.CONTACT-BTN:hover {
-    background: #549e9e;
+.btn {
+    background: #70d6d6;
+    background-image: -webkit-linear-gradient(top, #70d6d6, #63a2c9);
+    background-image: -moz-linear-gradient(top, #70d6d6, #63a2c9);
+    background-image: -ms-linear-gradient(top, #70d6d6, #63a2c9);
+    background-image: -o-linear-gradient(top, #70d6d6, #63a2c9);
+    background-image: linear-gradient(to bottom, #70d6d6, #63a2c9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 14px 11px 14px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #75aed1;
+    background-image: -webkit-linear-gradient(top, #75aed1, #37b5db);
+    background-image: -moz-linear-gradient(top, #75aed1, #37b5db);
+    background-image: -ms-linear-gradient(top, #75aed1, #37b5db);
+    background-image: -o-linear-gradient(top, #75aed1, #37b5db);
+    background-image: linear-gradient(to bottom, #75aed1, #37b5db);
     text-decoration: none;
 }
 
@@ -76,6 +91,8 @@ a {
 
 .send-message {
     color: #40514e;
+    width: 40%;
+    margin: 20px auto 60px;
 }
 
 .html-img {
@@ -91,7 +108,10 @@ a {
 }
 
 .copyright {
-    color: white;
+    color: #216e6e;
+    font-family: "Raleway", sans-serif;
+    font-size: 0.8rem;
+    padding: 20px 0;
 }
 
 .intro {
@@ -111,6 +131,7 @@ a {
 
 .bottom-container {
     background-color: #66bfbf;
+    padding: 50px 0 20px;
 }
 
 .skill-row {
