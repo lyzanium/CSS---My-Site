@@ -49,12 +49,23 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: #eaf6f6;
+.mountains {
+    width: 100%;
+    padding-top: 30px;
+}
+
+@media only screen and (max-width: 800px) and (min-width: 0px) {
+    .mountains {
+        display: none;
+    }
 }
 
 .elyza-avatar {
     border-radius: 10%;
+}
+
+a:hover {
+    color: #eaf6f6;
 }
 
 .btn {
