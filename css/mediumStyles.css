@@ -1,0 +1,36 @@
+@media only screen and (max-width: 770px) {
+    .mountains {
+        display: none;
+    }
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.elyza-avatar {
+    width: 100px;
+}
+
+.intro {
+    width: 90%;
+    margin: auto;
+}
+
+.html-img {
+    width: 70%;
+    float: none;
+    margin: 0;
+}
+
+.chili-img {
+    width: 70%;
+    float: none;
+    margin: 0;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: center;
+}
